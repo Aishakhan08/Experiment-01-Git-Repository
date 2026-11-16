@@ -1,0 +1,15 @@
+/* element selector */
+body { font-family: Georgia, serif; background-color: #fafafa; color: #222; margin: 20px; }
+/* id selector */
+#title { color: crimson; text-decoration: underline; }
+/* class selector */
+.special { color: white; background: teal; padding: 8px; }
+.big { font-size: 1.4em; font-weight: bold; }
+/* descendant selector */
+li a { color: purple; }
+/* grouping */
+h1, p { letter-spacing: 0.5px; }
+/* pseudo-class */
+button { padding: 8px 16px; border: none; background: #333; color: #fff; }
+button:hover { background: orange; color: #000; }
+a:hover { text-decoration: none; }

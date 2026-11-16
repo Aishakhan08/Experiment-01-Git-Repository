@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Create an Account</h1>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Account</legend>
+      <p><label for="name">Full name</label><br>
+         <input type="text" id="name" name="name" required placeholder="Your name"></p>
+      <p><label for="email">Email</label><br>
+         <input type="email" id="email" name="email" required></p>
+      <p><label for="pw">Password</label><br>
+         <input type="password" id="pw" name="password" minlength="8" required></p>
+      <p><label for="dob">Date of birth</label><br>
+         <input type="date" id="dob" name="dob"></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Choices</legend>
+      <p>Gender:<br>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label></p>
+
+      <p>Interests:<br>
+        <label><input type="checkbox" name="interest" value="html" checked> HTML</label>
+        <label><input type="checkbox" name="interest" value="css"> CSS</label>
+        <label><input type="checkbox" name="interest" value="js"> JavaScript</label></p>
+
+      <p><label for="country">Country</label><br>
+        <select id="country" name="country">
+          <option value="">-- Select --</option>
+          <option value="in">India</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+        </select></p>
+
+      <p><label for="bio">About you</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="40"></textarea></p>
+    </fieldset>
+
+    <p><label><input type="checkbox" required> I agree to the terms</label></p>
+    <button type="submit">Sign Up</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>

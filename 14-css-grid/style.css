@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+div > div, .layout > * { background: #0984e3; color: #fff; padding: 16px; border-radius: 6px; text-align: center; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.layout { display: grid; grid-template-columns: 200px 1fr; grid-template-rows: auto 200px auto; gap: 10px;
+          grid-template-areas: "head head" "side main" "foot foot"; }
+.layout header { grid-area: head; background: #2d3436; }
+.layout aside  { grid-area: side; background: #e17055; }
+.layout main   { grid-area: main; background: #00b894; }
+.layout footer { grid-area: foot; background: #636e72; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }

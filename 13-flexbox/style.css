@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+div > div, li { background: #6c5ce7; color: #fff; padding: 12px 20px; border-radius: 6px; }
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #2d3436; padding: 10px 20px; border-radius: 6px; }
+.navbar > .logo { background: transparent; font-weight: bold; padding: 0; }
+.links { display: flex; gap: 12px; list-style: none; margin: 0; padding: 0; }
+.row { display: flex; justify-content: center; gap: 10px; }
+.wrap { display: flex; flex-wrap: wrap; gap: 10px; }
+.wrap > div { flex: 1 1 120px; text-align: center; }
+.center { display: flex; justify-content: center; align-items: center; height: 160px; border: 2px dashed #999; }
+.column { display: flex; flex-direction: column; height: 240px; gap: 8px; border: 2px solid #999; padding: 8px; }
+.grow { flex-grow: 1; background: #00b894; }

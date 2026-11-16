@@ -1,0 +1,15 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #f59e0b;
+  --text: #1f2937;
+  --radius: 8px;
+  --space: 1rem;
+}
+body { font-family: Arial, sans-serif; color: var(--text); padding: var(--space); }
+.px { font-size: 16px; }
+.em { font-size: 1.5em; }
+.rem { font-size: 2rem; }
+.percent { width: 50%; background: var(--primary); color: #fff; padding: var(--space); border-radius: var(--radius); }
+.vw { width: 60vw; height: 10vh; background: var(--secondary); margin-top: var(--space); }
+.btn { background: var(--primary); color: #fff; border: 0; padding: 0.6rem 1.2rem; border-radius: var(--radius); }
+.btn-alt { --primary: #059669; } /* variable override */
